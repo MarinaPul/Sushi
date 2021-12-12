@@ -1,0 +1,381 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;500&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.make-order {
+    background: #F2F2F2;
+    width: 100%;
+    height: 100vh;
+}
+
+.header {
+    display: flex;
+    border-bottom: 0.5px solid #A4ACAD;
+    padding: 10px 0 10px 100px;
+}
+
+.contact-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.go-back-info, .phone-description, .phone-number, .work-hours {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+}
+
+.phone-number {
+    color: #FF9846;
+}
+
+.work-hours {
+    color: #A4ACAD;
+    font-size: 14px;
+}
+
+.go-back {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.go-back-arrow {
+    width: 20px;
+    height: 20px;
+    border-radius: 100%;
+    background: #FF9846;
+    margin-right: 10px;
+}
+
+.go-back-arrow::before {
+    content: '';
+    width: 7px;
+    border-bottom: 1px solid white;
+    position: absolute;
+    transform: translate(6px, 12px) rotate(45deg);
+}
+
+.go-back-arrow::after {
+    content: '';
+    width: 7px;
+    border-bottom: 1px solid white;
+    position: absolute;
+    transform: translate(6px, 8px) rotate(-45deg);
+}
+
+h2 {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 500;
+    font-size: 24px;
+    margin-bottom: 30px;
+}
+
+.form {
+    margin: 55px 300px 30px;
+}
+
+.basic-input {
+    height: 40px;
+    border-radius: 5px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    padding-left: 10px;
+    border: none;
+}
+
+.tel-input {
+    margin-right: 20px;
+}
+
+.radio-base {
+    display: none;
+}
+
+.radio-base:checked+.radio-input {
+    background: #FF9846;
+    color: white;
+}
+
+.radio-input {
+    display: inline-block;
+    width: 180px;
+    background-color: white;
+    cursor: pointer;
+}
+
+.radio-input.left {
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+}
+
+.radio-input.right {
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+    margin-left: -5px;
+}
+
+.cash-card {
+    display: flex;
+    margin-top: 15px;
+}
+
+
+.check {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    margin-top: 15px;
+}
+
+.go-back-arrow::before {
+    content: '';
+    width: 7px;
+    border-bottom: 1px solid white;
+    position: absolute;
+    transform: translate(6px, 12px) rotate(45deg);
+}
+
+.go-back-arrow::after {
+    content: '';
+    width: 7px;
+    border-bottom: 1px solid white;
+    position: absolute;
+    transform: translate(6px, 8px) rotate(-45deg);
+}
+
+.text {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    padding-left: 10px;
+}
+
+.amount {
+    display: flex;
+    height: 40px;
+    border-radius: 5px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    padding-left: 10px;
+    border: none;
+
+}
+
+.comments {
+    width: 360px;
+    border-radius: 5px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    padding-left: 10px;
+    border: none;
+    height: 40px;
+    margin-top: 10px;
+    position: absolute;
+    width: 360px;
+
+
+}
+
+.sticks {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 500;
+    margin-top: 20px;
+    display: flex;
+
+}
+
+.sticks2 {
+    margin-top: 10px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 500;
+    display: flex;
+}
+
+.pictures {
+    display: flex;
+    padding-right: 15px;
+
+}
+
+.promo {
+    width: 360px;
+    border-radius: 5px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    padding-left: 10px;
+    border: none;
+    height: 40px;
+    margin-top: 10px;
+    position: absolute;
+    width: 360px;
+    text-align: left;
+
+}
+
+.button {
+    background-color: #F46D40;
+    position: absolute;
+    width: 760px;
+    height: 45px;
+    right: 822px;
+    top: 613px;
+    border: none;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+    color: #F2F2F2;
+    padding-right: 100px;
+    text-align: center;
+
+}
+
+.main-text {
+    margin-top: 200px;
+    font-family: 'Raleway', sans-serif;
+    font-size: 14px;
+    text-align: center;
+
+}
+
+.text-decoration {
+    text-decoration: underline;
+    font-family: 'Raleway', sans-serif;
+    font-size: 14px;
+    text-align: center;
+}
+
+.courier-away {
+    height: 40px;
+    border-radius: 5px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    padding-left: 10px;
+    border: none;
+    display: flex;
+
+    flex-direction: row;
+}
+
+.conteiner {
+    display: flex;
+    margin-left: 470px;
+    margin-top: -41px;
+
+}
+
+.conteiner_1 {
+    display: flex;
+    margin-left: 478px;
+    margin-top: -43px;
+
+}
+
+.conteiner_2 {
+    display: flex;
+    margin-left: 479px;
+    margin-top: -43px;
+
+}
+
+.conteiner_3 {
+    display: flex;
+    margin-left: 473px;
+    margin-top: 16px;
+}
+
+.container_4 {
+    display: flex;
+    margin-left: 475px;
+    margin-top: -55px;
+}
+
+.conteiner_5{
+    display: flex;
+    margin-left: 700px;
+}
+
+.house-input {
+    width: 80px;
+    height: 40px;
+    top: 260px;
+    border: none;
+    background-color: #ffff;
+}
+
+.str-input {
+    width: 260px;
+    height: 40px;
+    border-radius: 5px;
+
+}
+
+.flat-input {
+    width: 80px;
+    height: 40px;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: row;
+    font-family: 'Raleway', sans-serif;
+    font-size: 18px;
+}
+
+.entrance-input {
+    width: 80px;
+    height: 40px;
+    border-radius: 5px;
+    font-family: 'Raleway', sans-serif;
+    font-size: 14px;
+}
+
+.floor-input {
+    width: 80px;
+    height: 40px;
+    border-radius: 5px;
+    font-family: 'Raleway', sans-serif;
+    font-size: 18px;
+}
+
+.code-input {
+    width: 80px;
+    height: 40px;
+    border-radius: 5px;
+    font-family: 'Raleway', sans-serif;
+    font-size: 18px;
+}
+
+.kindoftime {
+    height: 40px;
+    border-radius: 5px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    padding-left: 10px;
+    border: none;
+    display: flex;
+}
+
+.email {
+    width: 360px;
+    border-radius: 5px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    padding-left: 10px;
+    border: none;
+    height: 40px;
+    margin-top: 10px;
+    position: absolute;
+    width: 360px;
+}
